@@ -9,5 +9,3 @@ for movie in movies_list:
     print(movie)
 print("Första filmen:", movies_list[0])
 print("Sista filmen:", movies_list[-1])
-
-movies_list.append ("scarface", "Seven")

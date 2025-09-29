@@ -1,8 +1,7 @@
 import random
 #loop
 while True:
-    choice = input("Do you want to roll the dice? (y/n) ").strip().lower()
-    print(f"Du skrev: '{choice}'")
+    choice = input(" roll the dice? (y/n): ").lower()
     if choice == "y":
         die1 = random.randint(1, 6)
         die2 = random.randint(1, 6)
