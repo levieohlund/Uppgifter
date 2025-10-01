@@ -49,6 +49,13 @@ while True:
         quit()
     else: 
         print("choice not valid. Please choose a menu 1-4.")
+    sum_age = 0
+    for student in student_list:
+        sum_age += int(student["Age"])
+#beräkna genomsnitts ålder på studenterna
 
-
-    
+    if student_list:
+        average_age = sum_age / len(student_list)
+        print(f"Genomsnittlig ålder: {average_age}")
+    else:
+        print("Inga studenter registrerade.")
